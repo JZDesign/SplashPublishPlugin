@@ -18,7 +18,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/johnsundell/publish.git", from: "0.5.0"),
-        .package(url: "https://github.com/JZDesign/splash.git", .branch("kotlinGrammar"))
+        .package(url: "https://github.com/JZDesign/splash.git", from: "0.16.9")
     ],
     targets: [
         .target(
